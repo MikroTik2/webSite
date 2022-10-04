@@ -36,13 +36,57 @@
 //}
 //console.table(person);
 
-let name = prompt("your name")
+//const num1 = 10;
+//const num2 = 20;
 
-let age = parseFloat(prompt("your age"))
+//let value;
 
-console.log(typeof age);
+//value = num1 + num2;
 
-let result = `howdy, my name ${name} age ${age}` 
+//value += 100;
 
-console.log(result);
+   const num1 = 10;
+const num2 = 20;
 
+let value;
+
+value = num1 + num2;
+value += 100;
+
+value = 0.7 + 0.6;
+
+value =  +value.toFixed(1);
+
+value = Math.PI;
+value = Math.random();
+value = Math.round(2.4);
+
+value = Math.floor(Math.random() * 10 + 1);
+const arr = ['black', 'black', 'black', 'pink', 'blue', 'red',];
+value = Math.floor(Math.random() * arr.length);
+console.log(value, arr[value]);
+console.clear();
+
+const firstName = 'Denis';
+const lastName = 'Abrikos';
+const age = 20;
+
+const str = 'Hello my name is Artur';
+
+let value;
+
+value = firstName + lastName;
+value = firstName + ' ' + lastName;
+value = value + ' l am ' + age;
+
+value = firstName.length;
+value = firstName[4];
+value = lastName[lastName.length - 1];
+
+value = firstName.concat(' ', lastName);
+value = str.indexOf('my');
+value = str.includes('');
+
+value = str.slice(0, 5);  
+value = str.replace('Artur', 'Denis');
+console.log(value);
